@@ -49,3 +49,4 @@ A Go-based order management system with WhatsApp integration and AI-powered orde
 | DATABASE_URL | PostgreSQL connection string |
 | JWT_SECRET | Secret for JWT signing |
 | WHATSAPP_TOKEN | WhatsApp Business API token |
+# order_agent
