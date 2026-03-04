@@ -1,5 +1,3 @@
-module order_agent
-
 go 1.23
 
 require (
