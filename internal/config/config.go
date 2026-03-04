@@ -24,10 +24,10 @@ type Config struct {
 func Load() (*Config, error) {
 	// Local defaults (no env)
 	port := "8080"
-	dbHost := "localhost"
-	dbUser := "postgres"
-	dbPass := "postgres"
-	dbName := "order_agent"
+	dbHost := "ep-purple-union-aiia6zpe.c-4.us-east-1.pg.koyeb.app"
+	dbUser := "koyeb-adm"
+	dbPass := "npg_j4fBv0uEsSkZ"
+	dbName := "koyebdb"
 	dbPort := "5432"
 	databaseURL := buildPostgresURL(dbHost, dbPort, dbUser, dbPass, dbName)
 
