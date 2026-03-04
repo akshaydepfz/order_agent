@@ -14,7 +14,10 @@ import (
 )
 
 func main() {
-	cfg := config.Load()
+	cfg, err := config.Load()
+	if err != nil {
+		log.Fatalf("Config load failed: %v", err)
+	}
 
 	mux := http.NewServeMux()
 
